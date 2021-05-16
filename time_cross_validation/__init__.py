@@ -1,6 +1,4 @@
-# %%
-import pandas as pd
-# %%
+#import pandas as pd
 
 class TimeCV:
 
@@ -52,14 +50,3 @@ class TimeCV:
         
         return list_of_indexes
 
-# %%
-#example use:
-X = pd.DataFrame([10,20,10,4,5,1,7,20])
-Y = pd.DataFrame([5,1,7,20,10,20,10,4])
-
-CV = TimeCV(X,3,3,1)
-for train_index, test_index in CV.expanding_train_test_split():
-    print(train_index, test_index)
-    x_train = X.iloc[train_index]
-    x_test = X.iloc[test_index]
-# %%
