@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'time-cross-validation',
-    version = '0.0.1',
+    version = '0.0.2',
     description = 'Time series cross validation tool, supplementing or replacing relevant existing sklearn libraries.',
     long_description = file: README.md
     long_description_content_type = text/markdown
