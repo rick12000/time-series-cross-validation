@@ -24,7 +24,6 @@ class TimeCV:
             raise IndexError("train_sample_size cannot be larger than length of input variable (X).")
         if test_sample_size > len(X):
             raise IndexError("test_sample_size cannot be larger than length of input variable (X).")
-        
         if step > len(X):
             raise IndexError("step cannot be larger than length of input variable.")
 
