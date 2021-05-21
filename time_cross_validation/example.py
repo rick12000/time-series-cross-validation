@@ -1,4 +1,4 @@
-from __init__ import TimeCV
+from time_cross_validation import TimeCV
 import pandas as pd
 
 #sample X and Y variables:

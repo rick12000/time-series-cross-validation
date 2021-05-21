@@ -1,5 +1,3 @@
-#import pandas as pd
-
 class TimeCV:
 
     def __init__(self, X, train_sample_size = None, test_sample_size = None, step = 1):
@@ -48,4 +46,3 @@ class TimeCV:
             list_of_indexes.append((train_index, test_index))
         
         return list_of_indexes
-
